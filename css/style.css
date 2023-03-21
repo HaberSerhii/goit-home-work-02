@@ -1,0 +1,112 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Header */
+
+/* Logotype */
+
+.logo-part1 {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+.logo-part2 {
+  color: #2e2f42;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+.logo-part3 {
+  color: #f4f4fd;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Navigation */
+
+.nav-studio {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.nav-portfolio {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.nav-contacts {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+/* Contact us */
+
+.email {
+  color: #434455;
+}
+.phone-number {
+  color: #434455;
+}
+
+/* Main block */
+
+.subtitle-2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2e2f42;
+}
+.subtitle-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.description {
+  color: #434455;
+}
+
+/* Hero section */
+
+.hero-section {
+  background-color: #2e2f42;
+}
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #4d5ae5;
+}
+.hero-button-name {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Features */
+
+/* What are we doing */
+
+/* Our team */
+
+/* Footer */
+footer {
+  background-color: #2e2f42;
+}
+.footer-description {
+  color: #f4f4fd;
+}
