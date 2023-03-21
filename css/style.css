@@ -90,11 +90,15 @@ body {
   color: #ffffff;
 }
 .hero-button {
-  background-color: #4d5ae5;
+  background-color: #f4f4fd;
+  font-weight: 500;
+  color: #4d5ae5;
 }
-.hero-button-name {
+.hero-button:hover {
+  background-color: #4d5ae5;
   font-weight: 500;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* Features */
