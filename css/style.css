@@ -27,6 +27,12 @@ body {
   text-decoration: none;
 }
 
+.darkmode {
+  color: var(--darkmode-color);
+}
+
+/* Title */
+
 .title-first {
   color: #ffffff;
   font-weight: 700;
@@ -54,6 +60,8 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Paragraphs */
+
 .description {
   color: var(--body-text);
   font-weight: 400;
@@ -61,6 +69,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* Buttons */
+
 .main-button {
   font-family: var(--main-brand-font);
   color: #ffffff;
@@ -130,10 +141,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.darkmode {
-  color: var(--darkmode-color);
 }
 
 /* Navigation */
