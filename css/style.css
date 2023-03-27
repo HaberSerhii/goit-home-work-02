@@ -81,6 +81,7 @@ body {
 }
 
 .portfolio-button {
+  font-family: var(--main-brand-font);
   color: var(--main-brand-color);
   background-color: var(--darkmode-color);
   font-weight: 500;
@@ -94,7 +95,7 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  font-style: var(--main-brand-font);
+  font-family: var(--main-brand-font);
   color: #ffffff;
   background-color: var(--hover-brand-color);
   font-weight: 500;
