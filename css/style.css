@@ -92,7 +92,9 @@ body {
   cursor: pointer;
 }
 
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
+  font-style: var(--main-brand-font);
   color: #ffffff;
   background-color: var(--hover-brand-color);
   font-weight: 500;
@@ -158,8 +160,7 @@ body {
   font-style: normal;
 }
 
-.email,
-.phone-number {
+.header-contacts {
   color: var(--body-text);
   font-weight: 400;
   font-size: 16px;
@@ -167,8 +168,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.email:hover,
-.email:focus {
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--hover-brand-color);
   font-weight: 400;
   font-size: 16px;
