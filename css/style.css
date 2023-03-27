@@ -5,12 +5,15 @@
   --sub-brand-color: #2e2f42;
   --darkmode-color: #f4f4fd;
   --hover-brand-color: #404bbf;
+  --body-text: #434455;
+  --main-background-color: #ffffff;
 }
 
 /* ================== BODY ================== */
 
 body {
-  background-color: #ffffff;
+  background-color: var(--main-background-color);
+  color: var(--body-text);
   font-family: var(--main-brand-font);
 }
 
@@ -24,23 +27,26 @@ body {
   text-decoration: none;
 }
 
-.title {
+.title-first {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
-.subtitle-2 {
+.title-second {
   color: var(--sub-brand-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.subtitle-3 {
+.title-third {
   color: var(--sub-brand-color);
   font-weight: 500;
   font-size: 20px;
@@ -49,13 +55,13 @@ body {
 }
 
 .description {
-  color: var(--sub-brand-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .main-button {
+  font-family: var(--main-brand-font);
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -65,9 +71,11 @@ body {
   background-color: var(--main-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
   background-color: var(--hover-brand-color);
   cursor: pointer;
 }
@@ -100,7 +108,7 @@ body {
 
 /* Logotype */
 
-.logo-part1 {
+.brand-logotype {
   color: var(--main-brand-color);
   font-family: var(--sub-brand-font);
   font-weight: 800;
@@ -110,7 +118,7 @@ body {
   text-transform: uppercase;
 }
 
-.logo-part2 {
+.logo-part {
   color: var(--sub-brand-color);
   font-family: var(--sub-brand-font);
   font-weight: 800;
@@ -120,11 +128,13 @@ body {
   text-transform: uppercase;
 }
 
+.darkmode {
+  color: var(--darkmode-color);
+}
+
 /* Navigation */
 
-.nav-studio,
-.nav-portfolio,
-.nav-contacts {
+.nav-link {
   color: var(--sub-brand-color);
   font-weight: 500;
   font-size: 16px;
@@ -132,9 +142,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-studio:hover,
-.nav-portfolio:hover,
-.nav-contacts:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--hover-brand-color);
   font-weight: 500;
   font-size: 16px;
@@ -145,16 +154,21 @@ body {
 
 /* Contact us */
 
+.adress-style {
+  font-style: normal;
+}
+
 .email,
 .phone-number {
-  color: var(--sub-brand-color);
+  color: var(--body-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.email:hover {
+.email:hover,
+.email:focus {
   color: var(--hover-brand-color);
   font-weight: 400;
   font-size: 16px;
@@ -168,7 +182,7 @@ body {
 
 /* Hero section */
 
-.hero-section {
+.section-hero {
   background-color: var(--sub-brand-color);
 }
 
@@ -178,11 +192,19 @@ body {
 
 /* Our team */
 
+.section-team {
+  background-color: var(--darkmode-color);
+}
+
+.team-list {
+  background-color: var(--main-background-color);
+}
+
 /* =================== /MAIN =================== */
 /* --------------------------------------------- */
 /* ================== FOOTER =================== */
 
-footer {
+.webstudio-footer {
   background-color: var(--sub-brand-color);
 }
 
