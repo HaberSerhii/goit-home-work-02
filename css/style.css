@@ -76,7 +76,7 @@ body {
 
 .main-button {
   font-family: var(--main-brand-font);
-  color: var(--modal-background-color);
+  color: var(--white-background-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,7 +110,7 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
   font-family: var(--main-brand-font);
-  color: var(--modal-background-color);
+  color: var(--white-background-color);
   background-color: var(--pressed-state-color);
   font-weight: 500;
   font-size: 16px;
