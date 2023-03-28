@@ -1,4 +1,6 @@
 :root {
+  --main-brand-font: "Roboto", sans-serif;
+  --sub-brand-font: "Raleway", sans-serif;
   --primary-brand-color: #4d5ae5;
   --pressed-state-color: #404bbf;
   --dark-color: #2e2f42;
@@ -12,9 +14,6 @@
   --white-background-color: #ffffff;
   --modal-background-color: #fcfcfc;
 }
-
-/* --main-brand-font: "Roboto", sans-serif;
---sub-brand-font: "Raleway", sans-serif; */
 
 /* ================== BODY ================== */
 
