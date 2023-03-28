@@ -1,19 +1,25 @@
 :root {
   --main-brand-font: "Roboto", sans-serif;
   --sub-brand-font: "Raleway", sans-serif;
-  --main-brand-color: #4d5ae5;
-  --sub-brand-color: #2e2f42;
-  --darkmode-color: #f4f4fd;
-  --hover-brand-color: #404bbf;
-  --body-text: #434455;
-  --main-background-color: #ffffff;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --modal-overlay-color: #2e2f42;
+  --hero-background-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
 }
 
 /* ================== BODY ================== */
 
 body {
-  background-color: var(--main-background-color);
-  color: var(--body-text);
+  background-color: var(--white-background-color);
+  color: var(--text-color);
   font-family: var(--main-brand-font);
 }
 
@@ -27,14 +33,10 @@ body {
   text-decoration: none;
 }
 
-.darkmode {
-  color: var(--darkmode-color);
-}
-
 /* Title */
 
 .title-first {
-  color: #ffffff;
+  color: var(--white-background-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -43,7 +45,7 @@ body {
 }
 
 .title-second {
-  color: var(--sub-brand-color);
+  color: var(--dark-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -53,7 +55,7 @@ body {
 }
 
 .title-third {
-  color: var(--sub-brand-color);
+  color: var(--dark-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -63,7 +65,7 @@ body {
 /* Paragraphs */
 
 .description {
-  color: var(--body-text);
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -74,13 +76,13 @@ body {
 
 .main-button {
   font-family: var(--main-brand-font);
-  color: #ffffff;
+  color: var(--modal-background-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  background-color: var(--main-brand-color);
+  background-color: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -88,14 +90,14 @@ body {
 
 .main-button:hover,
 .main-button:focus {
-  background-color: var(--hover-brand-color);
+  background-color: var(--pressed-state-color);
   cursor: pointer;
 }
 
 .portfolio-button {
   font-family: var(--main-brand-font);
-  color: var(--main-brand-color);
-  background-color: var(--darkmode-color);
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -108,8 +110,8 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
   font-family: var(--main-brand-font);
-  color: #ffffff;
-  background-color: var(--hover-brand-color);
+  color: var(--modal-background-color);
+  background-color: var(--pressed-state-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -124,7 +126,7 @@ body {
 /* Logotype */
 
 .brand-logotype {
-  color: var(--main-brand-color);
+  color: var(--primary-brand-color);
   font-family: var(--sub-brand-font);
   font-weight: 800;
   font-size: 18px;
@@ -134,7 +136,7 @@ body {
 }
 
 .logo-part {
-  color: var(--sub-brand-color);
+  color: var(--dark-color);
   font-family: var(--sub-brand-font);
   font-weight: 800;
   font-size: 18px;
@@ -146,7 +148,7 @@ body {
 /* Navigation */
 
 .nav-link {
-  color: var(--sub-brand-color);
+  color: var(--dark-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -155,7 +157,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--hover-brand-color);
+  color: var(--pressed-state-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -170,7 +172,7 @@ body {
 }
 
 .header-contacts {
-  color: var(--body-text);
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -179,7 +181,7 @@ body {
 
 .header-contacts:hover,
 .header-contacts:focus {
-  color: var(--hover-brand-color);
+  color: var(--pressed-state-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -193,7 +195,7 @@ body {
 /* Hero section */
 
 .section-hero {
-  background-color: var(--sub-brand-color);
+  background-color: var(--dark-color);
 }
 
 /* Features */
@@ -203,11 +205,11 @@ body {
 /* Our team */
 
 .section-team {
-  background-color: var(--darkmode-color);
+  background-color: var(--light-color);
 }
 
 .team-list {
-  background-color: var(--main-background-color);
+  background-color: var(--white-background-color);
 }
 
 /* =================== /MAIN =================== */
@@ -215,11 +217,11 @@ body {
 /* ================== FOOTER =================== */
 
 .webstudio-footer {
-  background-color: var(--sub-brand-color);
+  background-color: var(--dark-color);
 }
 
 .darkmode {
-  color: var(--darkmode-color);
+  color: var(--light-color);
 }
 
 /* ================== /FOOTER ================== */
