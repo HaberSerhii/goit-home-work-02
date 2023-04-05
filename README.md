@@ -1,5 +1,5 @@
 
-<h1 style="color:#38bdae">Workplace for education</h1>
+<h1 style="color: #38bdae">Workplace for education</h1>
 
 
 <div align="center" style="padding: 20px 0;">
